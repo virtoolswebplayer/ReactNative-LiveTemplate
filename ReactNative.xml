@@ -1,0 +1,1267 @@
+<templateSet group="ReactNative">
+    <template name="rnC" value="import React from 'react-native';&#10;import styles from 'styles';&#10;&#10;const { Component, View, Text } = React;&#10;&#10;class $NAME$ extends Component {&#10;  // 默认属性&#10;  static defaultProps = {};&#10;&#10;  // 属性类型&#10;  static propTypes = {};&#10;&#10;  // 构造&#10;  constructor(props) {&#10;    super(props);&#10;    // 初始状态&#10;    this.state = {};&#10;  }&#10;&#10;  // 自定义方法&#10;  handle() {&#10;    &#10;  }&#10;&#10;  // 渲染&#10;  render() {&#10;    return (&#10;      &lt;View&gt;&#10;        &lt;Text style={styles.textDefault}&gt;&#10;          $NAME$&#10;        &lt;/Text&gt;&#10;      &lt;/View&gt;&#10;    );&#10;  }&#10;&#10;}&#10;&#10;export default $NAME$;&#10;" description="新建组件" toReformat="true" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="componentWillMount" value="componentWillMount() {&#10;  $END$&#10;}" description="componentWillMount" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="componentDidMount" value="componentDidMount() {&#10;$END$&#10;}" description="componentDidMount" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="propTypes" value="propTypes" description="propTypes" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="defaultProps" value="defaultProps" description="defaultProps" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="componentDidUnMount" value="componentDidUnMount() {&#10;$END$&#10;}" description="componentDidMount" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="componentWillUnMount" value="componentWillUnMount() {&#10;$END$&#10;}" description="componentWillUnMount" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="componentWillReceiveProps" value="componentWillReceiveProps() {&#10;$END$&#10;}" description="componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="componentDidUpdate" value="componentDidUpdate() {&#10;$END$&#10;}" description="componentDidUpdate" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="shouldComponentUpdate" value="shouldComponentUpdate() {&#10;$END$&#10;}" description="shouldComponentUpdate" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ActivityIndicatorIOS" value="ActivityIndicatorIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ART" value="ART" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="DatePickerIOS" value="DatePickerIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="DrawerLayoutAndroid" value="DrawerLayoutAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Image" value="Image" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ListView" value="ListView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="MapView" value="MapView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Modal" value="Modal" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Navigator" value="Navigator" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="NavigatorIOS" value="NavigatorIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="PickerIOS" value="PickerIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ProgressBarAndroid" value="ProgressBarAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ProgressViewIOS" value="ProgressViewIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ScrollView" value="ScrollView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="SegmentedControlIOS" value="SegmentedControlIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="SliderIOS" value="SliderIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="SnapshotViewIOS" value="SnapshotViewIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Switch" value="Switch" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="SwitchAndroid" value="SwitchAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="SwitchIOS" value="SwitchIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TabBarIOS" value="TabBarIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Text" value="Text" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TextInput" value="TextInput" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ToastAndroid" value="ToastAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ToolbarAndroid" value="ToolbarAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Touchable" value="Touchable" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TouchableHighlight" value="TouchableHighlight" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TouchableNativeFeedback" value="TouchableNativeFeedback" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TouchableOpacity" value="TouchableOpacity" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TouchableWithoutFeedback" value="TouchableWithoutFeedback" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="View" value="View" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ViewPagerAndroid" value="ViewPagerAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="WebView" value="WebView" description="ReactNative Component" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ActionSheetIOS" value="ActionSheetIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="AdSupportIOS" value="AdSupportIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="AlertIOS" value="AlertIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Animated" value="Animated" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="AppRegistry" value="AppRegistry" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="AppStateIOS" value="AppStateIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="AsyncStorage" value="AsyncStorage" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="BackAndroid" value="BackAndroid" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="CameraRoll" value="CameraRoll" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Dimensions" value="Dimensions" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Easing" value="Easing" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="ImagePickerIOS" value="ImagePickerIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="IntentAndroid" value="IntentAndroid" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="InteractionManager" value="InteractionManager" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="LayoutAnimation" value="LayoutAnimation" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="LinkingIOS" value="LinkingIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="NetInfo" value="NetInfo" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="PanResponder" value="PanResponder" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="PixelRatio" value="PixelRatio" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="PushNotificationIOS" value="PushNotificationIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Settings" value="Settings" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="StatusBarIOS" value="StatusBarIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="StyleSheet" value="StyleSheet" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="VibrationIOS" value="VibrationIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="DeviceEventEmitter" value="DeviceEventEmitter" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="NativeAppEventEmitter" value="NativeAppEventEmitter" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="NativeModules" value="NativeModules" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Platform" value="Platform" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="processColor" value="processColor" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="requireNativeComponent" value="requireNativeComponent" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="EdgeInsetsPropType" value="EdgeInsetsPropType" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="PointPropType" value="PointPropType" description="ReactNative Api" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="constructor" value="// 构造&#10;  constructor(props) {&#10;    super(props);&#10;    // 初始状态&#10;    this.state = {};&#10;  }" description="React Native ES6 Class constructor func" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Component" value="Component" description="React Component" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="LinkedStateMixin" value="LinkedStateMixin" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="Perf" value="Perf" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TestModule" value="TestModule" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="TestUtils" value="TestUtils" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="batchedUpdates" value="batchedUpdates" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="cloneWithProps" value="cloneWithProps" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="createFragment" value="createFragment" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="update" value="update" description="ReactNative addons" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="alignItems" value="alignItems: " description="['flex-start', 'flex-end', 'center', 'stretch']" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="alignSelf" value="alignSelf: " description="['auto', 'flex-start', 'flex-end', 'center', 'stretch']" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderBottomWidth" value="borderBottomWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderLeftWidth" value="borderLeftWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderRightWidth" value="borderRightWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderTopWidth" value="borderTopWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderWidth" value="borderWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="bottom" value="bottom: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="flex" value="flex: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="flexDirection" value="flexDirection: " description="enum('row', 'column')" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="flexWrap" value="flexWrap: " description="enum('wrap', 'nowrap')" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="height" value="height: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="justifyContent" value="justifyContent: " description="enum('flex-start', 'flex-end', 'center', 'space-between', 'space-around') " toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="left" value="left: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="margin" value="margin: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="marginBottom" value="marginBottom: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="marginHorizontal" value="marginHorizontal: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="marginLeft" value="marginLeft: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="marginRight" value="marginRight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="marginTop" value="marginTop: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="marginVertical" value="marginVertical: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="maxHeight" value="maxHeight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="maxWidth" value="maxWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="minHeight" value="minHeight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="minWidth" value="minWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="padding" value="padding: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="paddingBottom" value="paddingBottom: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="paddingHorizontal" value="paddingHorizontal: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="paddingLeft" value="paddingLeft: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="paddingRight" value="paddingRight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="paddingTop" value="paddingTop: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="paddingVertical" value="paddingVertical: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="position" value="position: " description="enum('absolute', 'relative')" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="right" value="right: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="top" value="top: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="width" value="width: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="flex-start" value="flex-start: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="flex-end" value="flex-end: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="center" value="center: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="stretch" value="stretch: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="color" value="color: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="fontFamily" value="fontFamily: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="fontSize" value="fontSize: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="fontStyle" value="fontStyle: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="fontWeight" value="fontWeight: " description="['normal' /*default*/, 'bold','100' ... '900']" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="letterSpacing" value="letterSpacing: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="lineHeight" value="lineHeight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="textAlign" value="textAlign: " description="['auto' /*default*/, 'left', 'right', 'center', 'justify']" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="textDecorationLine" value="textDecorationLine: " description="['none' /*default*/, 'underline', 'line-through', 'underline line-through']" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="textDecorationStyle" value="textDecorationStyle: " description="['solid' /*default*/, 'double', 'dotted','dashed']" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="textDecorationColor" value="textDecorationColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="writingDirection" value="writingDirection: " description="['auto' /*default*/, 'ltr', 'rtl']" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="backfaceVisibility" value="backfaceVisibility: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="backgroundColor" value="backgroundColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderColor" value="borderColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderTopColor" value="borderTopColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderRightColor" value="borderRightColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderBottomColor" value="borderBottomColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderLeftColor" value="borderLeftColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderRadius" value="borderRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderTopLeftRadius" value="borderTopLeftRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderTopRightRadius" value="borderTopRightRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderBottomLeftRadius" value="borderBottomLeftRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderBottomRightRadius" value="borderBottomRightRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="borderStyle" value="borderStyle: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="opacity" value="opacity: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="overflow" value="overflow: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="shadowColor" value="shadowColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="shadowOffset" value="shadowOffset: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="shadowOpacity" value="shadowOpacity: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="shadowRadius" value="shadowRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="contain" value="contain: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+    <template name="cover" value="cover: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JS_EXPRESSION" value="true" />
+            <option name="JSX_HTML" value="false" />
+            <option name="JS_STATEMENT" value="true" />
+        </context>
+    </template>
+</templateSet>
