@@ -1,5 +1,6 @@
 # 说明
-ReactNative的代码模板,包括
+ReactNative的代码模板,包括:
+
 1. 组件名称
 2. Api 名称
 3. 所有StyleSheets属性
