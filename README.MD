@@ -1,10 +1,16 @@
+# 更新日志
+
+[2015-12-25]
+
+新增组件属性,调用ReactNative组件时, 输入`onP` 自动提示 `onPress, onPressIn, onPressOut, .....`
+
 # 说明
 ReactNative的代码模板,包括:
 
 1. 组件名称
 2. Api 名称
 3. 所有StyleSheets属性
-4. React组件
+4. 组件属性 [2015-12-25]新增
 
 # 安装
 
