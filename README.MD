@@ -2,7 +2,7 @@
 
 [2015-12-25]
 
-新增组件属性,调用ReactNative组件时, 输入`onP` 自动提示 `onPress, onPressIn, onPressOut, .....`
+新增组件属性,调用ReactNative组件时, 首先 按下 `command + J` , 然后输入属性名的 `首字母` 如输入`onP` 自动提示 `onPress, onPressIn, onPressOut, .....`
 
 # 说明
 ReactNative的代码模板,包括:
