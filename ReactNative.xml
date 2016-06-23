@@ -40,7 +40,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="componentDidUnMount" value="componentDidUnMount() {&#10;$END$&#10;}" description="componentDidMount" toReformat="true" toShortenFQNames="true">
+  <template name="componentDidUnmount" value="componentDidUnmount() {&#10;$END$&#10;}" description="componentDidmount" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -48,7 +48,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="componentWillUnMount" value="componentWillUnMount() {&#10;$END$&#10;}" description="componentWillUnMount" toReformat="true" toShortenFQNames="true">
+  <template name="componentWillUnmount" value="componentWillUnmount() {&#10;$END$&#10;}" description="componentWillUnmount" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
