@@ -29,11 +29,12 @@ ReactNative的代码模板,包括:
 
 Mac下安装
 
-提示： 如果没有`templets` 文件夹，你可以手动创建一个
-webstorm11安装路径
+> 提示： 如果没有`templets` 文件夹，你可以手动创建一个
+
+#### webstorm11安装路径
 将`ReactNative.xml`复制到 `~/Library/Preferences/WebStorm11/templates`
 
-webstorm2016.2安装路径
+#### webstorm2016.2安装路径
 将`ReactNative.xml`复制到 `~/Library/Preferences/WebStorm2016.2/templates`
 
 重启 WebStrom
