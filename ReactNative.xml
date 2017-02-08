@@ -823,7 +823,7 @@
         <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="constructor" value="// 构造&#10;  constructor(props) {&#10;    super(props);&#10;    // 初始状态&#10;    this.state = {};&#10;  }" description="React Native ES6 Class constructor func" toReformat="false" toShortenFQNames="true">
+  <template name="constructor" value="constructor(props) {&#10;  super(props);&#10;  this.state = {};&#10;}" description="React Native ES6 Class constructor func" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
         <option name="JS_EXPRESSION" value="true" />
