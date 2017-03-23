@@ -21,8 +21,7 @@ ReactNative的代码模板，包括：
 
 # 安装
 
-### 方法一
-
+### 方法一 由于ReactNative.jar更新不方便而且过于陈旧，强烈建议使用方法二进行安装，ReactNative.jar 也会删除
 `file` -> `import settings` -> `ReactNative.jar`
 
 ### 方法二
