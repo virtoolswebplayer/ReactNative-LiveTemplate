@@ -29,7 +29,7 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="componentWillReceiveProps" value="componentWillReceiveProps() {&#10;$END$&#10;}" description="componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
+  <template name="componentWillReceiveProps" value="componentWillReceiveProps(nextProps) {&#10;$END$&#10;}" description="componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -41,7 +41,7 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="shouldComponentUpdate" value="shouldComponentUpdate() {&#10;$END$&#10;}" description="shouldComponentUpdate" toReformat="true" toShortenFQNames="true">
+  <template name="shouldComponentUpdate" value="shouldComponentUpdate(nextProps, nextState) {&#10;$END$&#10;}" description="shouldComponentUpdate" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
