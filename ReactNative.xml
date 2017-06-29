@@ -29,7 +29,7 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="componentWillReceiveProps" value="componentWillReceiveProps() {&#10;$END$&#10;}" description="componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
+  <template name="componentWillReceiveProps" value="componentWillReceiveProps(nextProps) {&#10;$END$&#10;}" description="componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -41,7 +41,7 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="shouldComponentUpdate" value="shouldComponentUpdate() {&#10;$END$&#10;}" description="shouldComponentUpdate" toReformat="true" toShortenFQNames="true">
+  <template name="shouldComponentUpdate" value="shouldComponentUpdate(nextProps, nextState) {&#10;$END$&#10;}" description="shouldComponentUpdate" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -611,7 +611,7 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="constructor" value="// 构造&#10;  constructor(props) {&#10;    super(props);&#10;    // 初始状态&#10;    this.state = {};&#10;  }" description="React Native ES6 Class constructor func" toReformat="false" toShortenFQNames="true">
+  <template name="constructor" value="constructor(props) {&#10;  super(props);&#10;  this.state = {};&#10;}" description="React Native ES6 Class constructor func" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />

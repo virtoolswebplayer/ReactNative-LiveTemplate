@@ -39,6 +39,9 @@ Mac下安装
 #### webstorm2017.1安装路径
 将`ReactNative.xml`复制到 `~/Library/Preferences/WebStorm2017.1/templates`
 
+#### webstorm2017.2安装路径
+将`ReactNative.xml`复制到 `~/Library/Preferences/WebStorm2017.2/templates`
+
 重启 WebStorm
 
 # 使用方法
